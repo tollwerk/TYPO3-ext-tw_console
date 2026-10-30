@@ -1,0 +1,38 @@
+{
+    "name": "tollwerk/tw-console",
+    "type": "typo3-cms-extension",
+    "description": "Collection of useful ViewHelpers",
+    "license": "LGPL-3.0-or-later",
+    "keywords": [
+        "typo3"
+    ],
+    "authors": [
+        {
+            "name": "Klaus Fiedler",
+            "role": "Developer",
+            "email": "klaus@tollwerk.de",
+            "homepage": "https://tollwerk.de"
+        }
+    ],
+    "homepage": "https://tollwerk.de",
+    "support": {
+        "issues": "https://tollwerk.de"
+    },
+    "require": {
+        "typo3/cms-core": "^12",
+        "typo3/cms-fluid-styled-content": "^12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tollwerk\\TwConsole\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "tw_console"
+        },
+        "branch-alias": {
+            "dev-master": "12.0.x-dev"
+        }
+    }
+}
