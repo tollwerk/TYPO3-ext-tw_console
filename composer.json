@@ -14,9 +14,9 @@
             "homepage": "https://tollwerk.de"
         }
     ],
-    "homepage": "https://tollwerk.de",
+    "homepage": "https://github.com/tollwerk/TYPO3-ext-tw_console",
     "support": {
-        "issues": "https://tollwerk.de"
+        "issues": "https://github.com/tollwerk/TYPO3-ext-tw_console/issues"
     },
     "require": {
         "typo3/cms-core": "^12",
