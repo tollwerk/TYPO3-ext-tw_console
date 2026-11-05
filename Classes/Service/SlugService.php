@@ -160,6 +160,7 @@ class SlugService
             }
 
             // Store the uid and, if update is necessary, the database statement for the current slug.
+            // @extensionScannerIgnoreLine
             $currentBatch[$slug['uid']] = $slug['update']
                 ? 'WHEN ' . $slug['uid'] . ' THEN \'' . $slug['slug'] . '\''
                 : null;
@@ -221,6 +222,7 @@ class SlugService
                             sprintf(
                                 '[%s][%s] %s',
                                 $slugs[$uid]['uid'],
+                                // @extensionScannerIgnoreLine
                                 $slugs[$uid]['update'] ? 'updated' : 'unchanged',
                                 $slugs[$uid]['slug']
                             )
