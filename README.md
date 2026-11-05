@@ -1,6 +1,7 @@
 # tollwerk TYPO3 console commands
 
 [![TYPO3](https://img.shields.io/badge/TYPO3-12.4-orange.svg)](https://get.typo3.org/version/12)
+[![TYPO3](https://img.shields.io/badge/TYPO3-13.4-orange.svg)](https://get.typo3.org/version/12)
 [![GNU General Public License](https://img.shields.io/badge/License-GPL%203%20or%20later-lightgray.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 This extension provides useful [Symfony](https://symfony.com/) console commands for TYPO3.
